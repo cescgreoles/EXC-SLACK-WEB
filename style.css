@@ -1,0 +1,416 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+   
+
+}
+.navbar{
+
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #400d40;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+
+}
+
+.nav-primary-logo{
+
+    
+    background-color: #400d40;
+}
+
+
+.navbar-primary{
+
+    background-color: #400d40;
+    width: 30%;
+    height: 45%;
+    
+}
+
+.navbar-primary-left{
+    justify-content: flex-end;
+    background-color: #400d40;
+    display: flex;
+    width: 50%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.navbar-primary-left-item-conectarse{
+    font-size: 14px;
+    background-color: #400d40;
+    width: 80px;
+    height: 21px;
+    margin: 16px;
+    color: white;
+    
+
+}
+
+.navbar-primary-left-item-hcev{
+    height: 41px;
+    background-color: #400d40;
+    margin: 16px;
+    border: ridge;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+  
+    
+}
+
+
+
+.navbar-primary-left-item-pg{
+    background-color: white;
+    padding: 11px;
+    color: white solid;
+    
+
+}
+
+
+
+.img-logo{
+    
+    width: 150px;
+}
+
+ul{
+    display: flex;
+    JUSTIFY-CONTENT: space-around;
+    font-size: 14px;
+    color: white;
+    
+
+ 
+}
+
+
+a.navbar-primary-left-item-conectarse{
+    color: white;
+}
+
+.container{
+
+    display: flex;
+    color: white;
+    padding-top: 5%;
+}
+
+.container-1{
+
+    background-color: #400d40;
+    width: 50%;
+    height: 500px;
+    padding-left: 5%;
+}
+
+.container-1-item-1{
+
+    
+    height: 175px;
+    font-size: 23px;
+}
+
+.container-1-item-2{
+
+    
+    width: 86%;
+    height: 18%;
+}
+
+.container-1-item-3{
+
+   
+    height: 47%;
+}
+
+.icono-google{
+    width: 10%;
+    
+}
+
+.item3-register-mail{
+
+    height: 23%;
+    padding-top: 7% ;
+    color: #400d40 solid;
+    
+}
+
+.item3-register-google{
+
+    display: flex;
+    height: 24%;
+    padding-top: 2%;
+   
+    
+}
+
+.register-mail{
+    width: 100%;
+    height: 100%;
+    color: #400d40;
+    
+}
+.register-google{
+    width: 100%;
+    background-color: #4285f4;
+    height: 103%;
+    color: white;
+    
+    
+}
+
+.item-3-sub{
+    font-size: 15px;
+    padding-top: 2%;
+}
+
+
+
+
+
+.container-2{
+
+    background-color: #400d40;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.container-2-video-top{
+
+    
+    width: 96%;
+    height: 83%;
+}
+
+.container-video{
+
+    width: 106%
+}
+
+
+.container-0-separator{
+
+    background-color: #f4ede4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-0-separator-sub{
+
+    background-color: #f4ede4;
+    padding-top: 2%;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.container-logotips-empresas{
+
+ background-color: #f4ede4;
+ height: 93px;
+ display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+.logotips-icon{
+    width: 80px;
+}
+
+.container-2-video-text{
+
+   
+    background-color: #f4ede4;
+    display: flex;
+    height: 380px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container-2-video{
+    background-color: #f4ede4;
+    width: 50%;
+    height: 380px;
+    
+}
+
+
+.container-2-text{
+    
+    background-color: #f4ede4;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 76%;
+    height: 49%
+}
+
+.video-src{
+    width: 91%
+}
+
+
+
+
+
+
+
+
+
+
+.video-explication{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 380px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.video-explication-1{
+    background-color: white;
+    width: 50%;
+    height: 380px;
+}
+
+.video-explication-2{
+    background-color: white;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-explication-2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 76%;
+    height: 49%
+
+}
+
+
+.container-0-separator-bajo{
+    background-color: #f4ede4;
+    height: 129px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-0-separator-sub-bajo{
+    background-color: #f4ede4;
+    padding-top: 2%;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.container-4-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4ede4;
+    width: 100%;
+}
+
+.element-1{
+
+    background-color: white;
+    
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.element-image{
+    width: 270px;
+}
+
+.footer-1{
+
+   width: 100%;
+   
+}
+
+
+.footer-image{
+    width: 5%;
+    background-color: aquamarine;
+}
+
+.footer-pq-slack{
+    background-color: #400d40;
+    
+}
+
+.footer-product{
+    background-color: yellow;
+
+}
+
+.footer-price{
+    background-color: red;
+
+}
+
+.footer-recursos{
+
+    background-color: cadetblue;
+}
+
+.footer-empresa{
+
+    background-color: coral;
+}
